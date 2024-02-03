@@ -89,13 +89,16 @@ body.active {
 .overlaycontent {
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-between;
+  /* flex-direction: column; */
+  gap: 5rem;
   position: absolute;
   top: 50%;
   left: 50%;
+  border: 1px solid white;
   padding: 1rem;
   transform: translate(-50%, -50%);
+  border-radius: 5px;
 }
 
 .gameovernotification {
@@ -108,7 +111,7 @@ body.active {
   color: white;
   margin: 1rem 0;
   padding: 5px 8px;
-  width: 50%;
+  /* width: 50%; */
   border: 1px solid white;
   border-radius: 5px;
   cursor: pointer;
